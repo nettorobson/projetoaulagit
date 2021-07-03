@@ -1,0 +1,56 @@
+<meta charset="utf-8">
+<script>
+// Comentários de código no JS são duas barrinhas
+// Aprendemos uma saída de tela no JS que é o alert (o famoso pop-up)
+// Vamos agora aprender a saída em tela, sem o pop-up, com o document.wr
+
+alert("Welcome to programming")
+alert("Be happy")
+
+document.write("Welcome to programming" + "<br>")
+document.write("Be happy" + "<br>")
+
+// Para quebrar linha utilizamos a tag "<br>" na primeira linha
+
+document.write("My age is ")
+document.write("30" + "<br>")
+
+// Tipagem de código é a forma que a linguagem utiliza para manipular tipos de dados.
+// O JS tem tipo de tipagem chamado FRACA. O Python de tipo de tipagem chamada FORTE.
+// TESTAR O document.write("30+3") e document.write("30"+3)
+
+/* 
+Para comentar 
+bloco de código
+no JS
+*/
+
+document.write("My age is: " + 36 + "<br>")
+document.write("Jukka's age is: " + 13 + "<br>")
+document.write("Ellen's age is: " + 22 + "<br>")
+
+document.write("All ages sum is: " + (36+13+22) + "<br>")
+
+alert("Mean age is: " + (36+13+22)/3 )
+
+
+// Variáveis são espaços variáveis em memória que recebem um valor temporário e pode ser
+// alterado
+
+// Variáveis não podem ter espaço, palavras reservadas à linguagem, ser iniciados em números
+// nem caracteres especiais exceto o underline _
+
+// No Js, para declarar uma variável usamos a função "let"
+
+let cidade = "Floripa"
+
+alert(cidade)
+
+let num1 = 10
+let num2 = 20
+let num3 = 30
+
+document.write("Values sum is: " + (num1+num2+num3))
+
+
+</script>
